@@ -33,8 +33,7 @@ h1, h2, h3, label {
 }
 
 /* Balance text wrapping on headings */
-h1, h2,
-h3 {
+h1, h2, h3 {
   text-wrap: balance;
 }
 
@@ -76,4 +75,53 @@ body {
   font-size: var(--font-size-normal);
   font-weight: var(--font-weight-normal);
   color: var(--dark-blue);
+}
+
+main {
+  padding: 1.5rem;
+}
+
+h1 {
+  font-weight: var(--font-weight-light);
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 span {
+  font-weight: var(--font-weight-bold);
+}
+
+.description {
+  text-align: center;
+  color: var(--gray-blue);
+  margin-top: 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-top: 0.25rem solid;
+    border-color: var(--red);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.card p {
+    margin-top: 0.5rem;
+    color: var(--gray-blue);
+    font-size: 0.8125rem;
 }
