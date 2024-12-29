@@ -107,11 +107,10 @@ h1 span {
 
 .card {
     background-color: white;
-    padding: 1.5rem;
+    padding: 1.75rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     border-top: 0.25rem solid;
-    border-color: var(--red);
 }
 
 .card h2 {
@@ -124,4 +123,25 @@ h1 span {
     margin-top: 0.5rem;
     color: var(--gray-blue);
     font-size: 0.8125rem;
+}
+
+.card-icon {
+    margin-top: 2.5rem;
+    margin-left: auto;
+}
+
+#supervisor-card {
+    border-color: var(--cyan);
+}
+
+#team-builder-card {
+    border-color: var(--red);
+}
+
+#karma-card {
+    border-color: var(--orange);
+}
+
+#calculator-card {
+    border-color: var(--blue);
 }
